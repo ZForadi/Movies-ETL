@@ -42,3 +42,9 @@ Please see [ETL_clean_kaggle_data.ipynb](ETL_clean_kaggle_data.ipynb) for how th
 Added the movies_df DataFrame and MovieLens rating CSV data to a SQL database.
 
 Please see [ETL_create_database](ETL_create_database.ipynb) for how this was done. 
+
+See below for total movies_df rows in SQL. 
+![movies_query](Resources/movies_query.png)
+
+See below for total ratings rows in SQL. 
+![ratings_query](Resources/ratings_query.png)
