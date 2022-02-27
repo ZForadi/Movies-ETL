@@ -19,7 +19,7 @@ The view the raw data from Wikipedia and Kaggle, please see the following files:
 * From Kaggle: [movies_metadata](Resources/movies_metadata.csv)
 * From MovieLens: [ratings](Resources/ratings.csv)
 
-To view how the data sets were initially cleaned, transformed into databases and saved into SQL database, please see [Wiki_MovieLens_ETL](Wiki_MovieLens_ETL.ipynb)
+To view how the data sets were initially cleaned, transformed into databases and saved into SQL database, please see [Wiki_Kaggle_ETL](Wiki_Kaggle_ETL.ipynb)
 
 Amazing Prime loved the dataset and wants to keep it updated on a daily basis. Now, Britta needs help to create an automated pipeline that takes in new data, performs the appropriate transformations, and loads the data into existing tables. The old code needs to be refactored to create one function that takes in the three files—Wikipedia data, Kaggle metadata, and the MovieLens rating data—and performs the ETL process by adding the data to a PostgreSQL database.
 
